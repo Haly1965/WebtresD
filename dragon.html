@@ -27,7 +27,7 @@
         scene.add(light);
 
         const loader = new THREE.GLTFLoader();
-        loader.load('D:/Sistemas de Comunicación Multimedia/Curso 2024_25/Practicas/dragon.glb', function (gltf) {
+        loader.load('dragon.glb', function (gltf) {
             scene.add(gltf.scene);
         }, undefined, function (error) {
             console.error('Error al cargar el modelo:', error);
